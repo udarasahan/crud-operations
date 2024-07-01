@@ -1,0 +1,61 @@
+.user-form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    gap: 30px;
+}
+
+.user-input {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    justify-content: space-between;
+    padding-bottom: 20px;
+}
+
+.user-input input {
+    height: 30px;
+    width: 400px;
+    font-size: 18px;
+}
+
+.user-inputs form button {
+    padding: 10px 20px;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+.user-inputs form button:hover {
+    color: green;
+    font-weight: 500;
+}
+
+.user-display {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    gap: 30px;
+}
+
+.users-list {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.users-list button {
+    padding: 5px 20px;
+    font-size: 15px;
+    cursor: pointer;
+    margin-left: 30px;
+}
+
+.users-list button:hover {
+    color: red;
+    font-weight: 500;
+}
